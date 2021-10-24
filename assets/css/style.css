@@ -1,29 +1,30 @@
+/* this allows for the section boxes and the aside to be side by side */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* this changes the background color of the page, not inclusive of section boxes and aside */
 body {
     background-color: #d9dcd6;
 }
-
+/* this gives color and to the header section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* this gives the nav bar formatting*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* this changes the color of the "seo" in Horiseon */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* *this divides and gives formating to the header */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,21 +32,21 @@ header div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* this gives the nav bar the side by side look, instead of on top of each other */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* this gives formating to the nav bar so it is white, and not underlined, instead of acting like a link */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* this changes the font size for the paragrpahs in the sections */
 p {
     font-size: 16px;
 }
-
+/* this is the background image with the people at the desk */
 .hero {
     height: 800px;
     width: 100%;
@@ -54,46 +55,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* this gives photos in sections/ids "search-enging-optimization" and "social-media-marketing the position of left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* this gives the section/id "online-rep-management" to have a right sided position */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* this gives the sections formating */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-    color: #ffffff;
-    text-align: center;
-}
-
-.benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px
-}
-
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* gives sections formatting */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,20 +80,50 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* size of photos in sections */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-
+/* this is the header formatting for the sections */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* this gives the aside formatting and allows it to be on the right side of the page */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    width: 20%;
+    height: 100%;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* this changes the spacing of the paragraphs in the aside  */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*  */
+.benefit-lead h3,.benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* this is the formating for the images within the aside */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* this is the formatting for the footer */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-size: 13.25px;
+}
+/* this is the formatting for the for the Made with Love line */
+footer h2 {
+    font-size: 20px;
 }
