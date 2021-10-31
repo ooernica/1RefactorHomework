@@ -4,7 +4,7 @@ By: Erna Lukac
 # Description
 Received already made HTML code and already made CSS. Made it more accessible and consolodated code to be less redundant 
 
-#Built With
+# Built With
 HTML & CSS
 
 # Other Contributors:
