@@ -1,5 +1,5 @@
 # 1RefactorHomework
-By: Erna Lukac
+By: Erna Lukač
 
 # Description
 Received already made HTML code and already made CSS. Made it more accessible and consolodated code to be less redundant 
